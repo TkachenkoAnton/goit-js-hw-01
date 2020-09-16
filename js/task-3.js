@@ -1,5 +1,5 @@
 // объявить переменные для полей паролей, а так же выводимых сообщений
-const userPassword = "jqueryismyjac";
+const userPassword = "jqueryismyjam";
 
 const ADMIN_PASSWORD = "jqueryismyjam";
 
