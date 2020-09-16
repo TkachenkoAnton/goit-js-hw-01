@@ -8,7 +8,7 @@
 // const messageDenied = `На складе недостаточно товаров!`;
 
 // с помощью конструкции if else обьявить возможные варианты сообщения в зависимости от изменения переменной invoice
-// if (invoice <= 100) {
+// if (invoice <= stock) {
 //   console.log(messageConfirm);
 // } else {
 //   console.log(messageDenied);
@@ -21,7 +21,7 @@ const invoice = 101;
 
 // обьявить возможные варианты сообщений c условием измения переменной invoice
 let message = `Заказ оформлен, с вами свяжется менеджер`;
-if (invoice <= 100) {
+if (invoice <= stock) {
 } else {
   message = `На складе недостаточно товаров!`;
 }
