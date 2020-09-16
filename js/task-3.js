@@ -1,12 +1,11 @@
 // объявить переменные для полей паролей, а так же выводимых сообщений
-const userPassword = "jqueryismyjam";
+const userPassword = "jqueryismyjac";
 
 const ADMIN_PASSWORD = "jqueryismyjam";
 
 const CANCELED_BY_USER = "Отменено пользователем!";
 const ACCESS_IS_ALLOWED = "Добро пожаловать!";
 const ACCESS_DENIED = "Доступ запрещен, неверный пароль!";
-const ACCESS_DENIE = "неверный пароль!";
 
 let message = `Добро пожаловать!`;
 if (userPassword === null) {
